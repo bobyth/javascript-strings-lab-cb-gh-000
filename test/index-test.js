@@ -1,5 +1,5 @@
 /*global concatenatedString, describe, interpolatedString, it, myString */
-var greeting = 'Hello, everybody';
+var greeting;
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
