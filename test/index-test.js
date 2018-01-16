@@ -1,9 +1,10 @@
 /*global concatenatedString, describe, interpolatedString, it, myString */
 var greeting ='Hello, everybody!';
 var specialGuest = "Neil deGrasse Tyson";
-var greetSpecialGuest = "" + specialGuest + "!";
+var greetSpecialGuest = "Hello," + specialGuest + "!";
 var topic = "space";
 var conversation = `${topic}`;
+
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
