@@ -2,8 +2,8 @@
 var greeting ='Hello, everybody!';
 var specialGuest = "Neil deGrasse Tyson";
 var greetSpecialGuest = "Hello, " + specialGuest + "!";
-var topic = " space";
 var conversation = `${topic}`;
+var topic = "space";
 
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
