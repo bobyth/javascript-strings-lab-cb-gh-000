@@ -3,12 +3,12 @@ var greeting ='Hello, everybody!';
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
-var greetSpecialGuest = 'Hello, Neil deGrasse Tyson';
+var greetSpecialGuest = 'Neil deGrasse Tyson';
 var topic = "space";
 it('concatenates strings to greet a special guest in `greetSpecialGuest`', function() {
   expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`)
 })
-var conversation;
+var conversation = `${topic}`;
 it('interpolates a string in `conversation`', function() {
   expect(conversation).toEqual(`Let's talk about ${topic}.`)
 })
