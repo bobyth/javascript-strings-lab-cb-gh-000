@@ -2,7 +2,7 @@
 var greeting ='Hello, everybody!';
 var specialGuest = "Neil deGrasse Tyson";
 var greetSpecialGuest = "Hello, " + specialGuest + "!";
-var conversation = `${topic}`;
+var conversation = `Let's talk about ${topic}`;
 var topic = "space";
 
 it('defines `greeting`', function() {
